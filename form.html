@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html lang="en">
@@ -134,4 +135,142 @@
 
 </body>
 
+=======
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple HTML Form</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+        }
+
+        form {
+
+            width: 300px;
+
+            margin: 50px auto;
+
+            padding: 20px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 10px;
+
+            background-color: #f9f9f9;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-bottom: 8px;
+
+        }
+
+        input, select, textarea, button {
+
+            width: 100%;
+
+            padding: 8px;
+
+            margin-bottom: 15px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+        }
+
+        button {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+        }
+
+        button:hover {
+
+            background-color: #45a049;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form action="submit_form.php" method="POST">
+
+        <h2>Contact Form</h2>
+
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        
+
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        
+
+        <label for="message">Message:</label>
+
+        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+
+        
+
+        <label for="gender">Gender:</label>
+
+        <select id="gender" name="gender" required>
+
+            <option value="">Select Gender</option>
+
+            <option value="male">Male</option>
+
+            <option value="female">Female</option>
+
+            <option value="other">Other</option>
+
+        </select>
+
+        
+
+        <label for="subscribe">
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+
+            Subscribe to our newsletter
+
+        </label>
+
+        
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+>>>>>>> 56f36a7a3e700c674daa1bbf3b0ff43b4632f58f
 </html>

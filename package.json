@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "bee-folder",
+  "version": "1.0.0",
+  "main": "form.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
